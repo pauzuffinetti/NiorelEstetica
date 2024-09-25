@@ -9,7 +9,6 @@ const Hero = () => {
         <div className="hero-text">
             <h1>Niorel Estética</h1>
             <p>Centro de estética facial y corporal</p>
-            <button className='btn'>Explorar <img src={rightArrow} alt="flecha" /></button>
         </div>
     </div>
   )
