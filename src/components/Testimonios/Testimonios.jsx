@@ -1,7 +1,7 @@
-import React, { useRef } from "react";
-import "./Testimonios.css";
-import next from "../../assets/next.png";
-import back from "../../assets/back.png";
+import React, { useRef } from 'react';
+import './Testimonios.css';
+import next from '../../assets/next.png';
+import back from '../../assets/back.png';
 
 const Testimonios = () => {
   const slider = useRef();

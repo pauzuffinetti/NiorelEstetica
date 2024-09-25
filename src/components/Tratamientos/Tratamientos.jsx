@@ -1,15 +1,15 @@
-import React from "react";
-import "./Tratamientos.css";
-import limpieza from "../../assets/limpieza.png";
-import dermaplaning from "../../assets/dermaplaning.png";
-import peeling from "../../assets/peeling.png";
-import microneedling from "../../assets/microneedling.png";
-import premium from "../../assets/premium.png";
-import treatment from "../../assets/treatment.png";
-import facial from "../../assets/facial.png";
-import cream from "../../assets/cream.png";
-import acid from "../../assets/acid.png";
-import skincare from "../../assets/skincare.png";
+import React from 'react';
+import './Tratamientos.css';
+import limpieza from '../../assets/limpieza.png'
+import dermaplaning from '../../assets/dermaplaning.png';
+import peeling from '../../assets/peeling.png';
+import microneedling from '../../assets/microneedling.png';
+import premium from '../../assets/premium.png';
+import treatment from '../../assets/treatment.png';
+import facial from '../../assets/facial.png';
+import cream from '../../assets/cream.png';
+import acid from '../../assets/acid.png';
+import skincare from '../../assets/skincare.png';
 
 const Tratamientos = () => {
   return (

@@ -1,6 +1,6 @@
-import React from "react";
-import "./About.css";
-import perfildos from "../../assets/perfildos.png";
+import React from 'react';
+import './About.css';
+import perfildos from '../../assets/perfildos.png';
 
 
 const About = () => {

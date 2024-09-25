@@ -1,9 +1,9 @@
-import React from "react";
-import "./Contacto.css";
-import chat from "../../assets/chat.png";
-import pin from "../../assets/pin.png";
-import whatsapp from "../../assets/whatsapp.png";
-import Mapa from "./Mapa";
+import React from 'react';
+import './Contacto.css';
+import chat from '../../assets/chat.png';
+import pin from '../../assets/pin.png';
+import whatsapp from '../../assets/whatsapp.png';
+import Mapa from './Mapa';
 
 const Contacto = () => {
   const handleWhatsAppClick = () => {

@@ -1,7 +1,7 @@
-import React from "react";
-import "./Footer.css";
-import instagram from "../../assets/instagram.png";
-import whatsapp from "../../assets/whatsapp.png";
+import React from 'react';
+import './Footer.css';
+import instagram from '../../assets/instagram.png';
+import whatsapp from '../../assets/whatsapp.png';
 
 const Footer = () => {
   const handleInstagramClick = () => {

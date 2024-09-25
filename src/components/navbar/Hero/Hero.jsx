@@ -1,7 +1,5 @@
 import React from 'react'
 import './Hero.css'
-import rightArrow from '/src/assets/rightArrow.png'
-
 
 const Hero = () => {
   return (
