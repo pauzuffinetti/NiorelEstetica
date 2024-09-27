@@ -12,9 +12,13 @@ const Footer = () => {
     window.open("https://wa.me/541125298014?", "_blank", "noopener,noreferrer");
   };
 
+  const handlePortfolioClick = () => {
+    window.open("https://portfoliopz.vercel.app/", "_blank", "noopener,noreferrer");
+  };
+
   return (
     <div className="footer">
-      <p>Página creada por mi, con mucho ❤️</p>
+      <p>Página creada por mi, con mucho ❤️ | <span onClick={handlePortfolioClick} style={{ cursor: "pointer" }}>Portfolio</span></p>
       <div className="socials">
         <img
           src={instagram}
