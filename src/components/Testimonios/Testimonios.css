@@ -64,6 +64,7 @@
         width: 35px;
     }
     .slide{
+        width: 100%;
         padding: 10px;
     }
 }
