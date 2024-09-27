@@ -1,12 +1,11 @@
 import React from 'react';
 import './Tratamientos.css';
-import limpieza from '../../assets/limpieza.PNG'
-import dermaplaning from '../../assets/dermaplaning.PNG';
-import peeling from '../../assets/peeling.PNG';
-import microneedling from '../../assets/microneedling.PNG';
-import premium from '../../assets/premium.PNG';
+import limpieza from '../../assets/limpieza.jpg'
+import dermaplaning from '../../assets/dermaplaning.jpg';
+import peeling from '../../assets/peeling.jpg';
+import microneedling from '../../assets/microneedling.jpg';
+import premium from '../../assets/premium.jpg';
 import treatment from '../../assets/treatment.png';
-
 import facial from '../../assets/facial.png';
 import cream from '../../assets/cream.png';
 import acid from '../../assets/acid.png';
