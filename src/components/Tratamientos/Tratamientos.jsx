@@ -1,6 +1,6 @@
 import React from 'react';
 import './Tratamientos.css';
-import limpieza from '../../assets/limpieza.png'
+import Limpieza from '../../assets/Limpieza.png'
 import dermaplaning from '../../assets/dermaplaning.png';
 import peeling from '../../assets/peeling.png';
 import microneedling from '../../assets/microneedling.png';
@@ -15,7 +15,7 @@ const Tratamientos = () => {
   return (
     <div className="tratamientos">
       <div className="tratamiento">
-        <img src={limpieza} alt="" />
+        <img src={Limpieza} alt="" />
         <div className="caption">
           <img src={treatment} alt="" />
           <p>Limpieza clásica</p>
