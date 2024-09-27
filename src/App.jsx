@@ -10,8 +10,6 @@ import Contacto from "./components/Contacto/Contacto";
 import Footer from "./components/Footer/Footer";
 
 
-
-
 const App = () => {
   return (
     <div>
