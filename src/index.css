@@ -11,6 +11,20 @@ body{
     background-color: #FEFDF4;
 }
 
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #E2AE99;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: white;
+    width: 50px;
+}
+
 a{
     text-decoration: none;
     color: inherit;
