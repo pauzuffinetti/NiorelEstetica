@@ -1,11 +1,15 @@
-import React from 'react';
-import './Footer.css';
-import instagram from '../../assets/instagram.png';
-import whatsapp from '../../assets/whatsapp.png';
+import React from "react";
+import "./Footer.css";
+import instagram from "../../assets/instagram.png";
+import whatsapp from "../../assets/whatsapp.png";
 
 const Footer = () => {
   const handleInstagramClick = () => {
-    window.open("https://www.instagram.com/niorel.estetica", "_blank", "noopener,noreferrer");
+    window.open(
+      "https://www.instagram.com/niorel.estetica",
+      "_blank",
+      "noopener,noreferrer"
+    );
   };
 
   const handleWhatsAppClick = () => {
@@ -13,12 +17,21 @@ const Footer = () => {
   };
 
   const handlePortfolioClick = () => {
-    window.open("https://portfoliopz.vercel.app/", "_blank", "noopener,noreferrer");
+    window.open(
+      "https://portfoliopz.vercel.app/",
+      "_blank",
+      "noopener,noreferrer"
+    );
   };
 
   return (
     <div className="footer">
-      <p>Página creada por mi, con mucho ❤️ | <span onClick={handlePortfolioClick} style={{ cursor: "pointer" }}>Portfolio</span></p>
+      <p>
+        Página creada por mi, con mucho ❤️ |{" "}
+        <strong onClick={handlePortfolioClick} style={{ cursor: "pointer" }}>
+          Portfolio
+        </strong>
+      </p>
       <div className="socials">
         <img
           src={instagram}

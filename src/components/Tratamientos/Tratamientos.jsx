@@ -20,6 +20,9 @@ const Tratamientos = () => {
           <img src={treatment} alt="" />
           <p>Limpieza clásica</p>
         </div>
+        <div className="tratamiento-Mobile">
+            <p>Limpieza clásica</p>
+          </div>
       </div>
 
       <div className="tratamiento">
@@ -28,6 +31,9 @@ const Tratamientos = () => {
           <img src={cream} alt="" />
           <p>Dermaplaning</p>
         </div>
+        <div className="tratamiento-Mobile">
+            <p>Dermaplaning</p>
+          </div>
       </div>
 
       <div className="tratamiento">
@@ -36,14 +42,20 @@ const Tratamientos = () => {
           <img src={acid} alt="" />
           <p>Microneedling</p>
         </div>
+        <div className="tratamiento-Mobile">
+            <p>Microneedling</p>
+          </div>
       </div>
 
       <div className="tratamiento">
         <img src={peeling} alt="" />
         <div className="caption">
           <img src={facial} alt="" />
-          <p>Peeling químico</p>
+          <p>Peeling Químico</p>
         </div>
+        <div className="tratamiento-Mobile">
+            <p>Peeling Químico</p>
+          </div>
       </div>
 
       <div className="tratamiento">
@@ -52,6 +64,9 @@ const Tratamientos = () => {
           <img src={skincare} alt="" />
           <p>Tratamientos PREMIUM</p>
         </div>
+        <div className="tratamiento-Mobile">
+            <p>Tratamientos PREMIUM</p>
+          </div>
       </div>
 
       

@@ -5,17 +5,17 @@ import back from '../../assets/back.png';
 
 const Testimonios = () => {
   const slider = useRef();
-  const tx = useRef(0); // Almacenar el valor de tx en una referencia
+  const tx = useRef(0);
 
   const slideForward = () => {
-    if (tx.current > -50) { // Limitar el desplazamiento máximo hacia adelante
+    if (tx.current > -50) { 
       tx.current -= 25;
     }
     slider.current.style.transform = `translateX(${tx.current}%)`;
   };
 
   const slideBackward = () => {
-    if (tx.current < 0) { // Limitar el desplazamiento máximo hacia atrás
+    if (tx.current < 0) {
       tx.current += 25;
     }
     slider.current.style.transform = `translateX(${tx.current}%)`;

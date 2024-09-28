@@ -10,17 +10,15 @@ import estrias from '../../assets/estrias.jpeg';
 const Fotos = () => {
   return (
     <div className="fotos">
-      <div className="gallery">
+
         <img src={tefione} alt="" />
         <img src={tefitwo} alt="" />
         <img src={agoz} alt="" />
-      </div>
-      <div className="gallery">
+
         <img src={cami1} alt="" />
         <img src={estrias} alt="" />
         <img src={cami2} alt="" />
       </div>
-    </div>
   );
 };
 
